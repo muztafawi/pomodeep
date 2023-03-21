@@ -15,17 +15,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className={styles.main}>
         {/* <Header /> */}
-        <div className={styles.description}>
-          <p>
-            Get started your Pomodeep&nbsp;
-            <code className={styles.code}>Today</code>
-          </p>
-        </div>
 
-        <div className={styles.center}>
-          {/* <Image
+        <div>
+          <div className={styles.description}>
+            <div>© Pomodeep</div>
+            <p>
+              Get Start Your&nbsp;
+              <code className={styles.code}>Pomodeep Today</code>
+            </p>
+          </div>
+
+          <div className={styles.center}>
+            {/* <Image
             className={styles.logo}
             src="/next.svg"
             alt="Next.js Logo"
@@ -33,7 +37,9 @@ export default function Home() {
             height={37}
             priority
           /> */}
-          <div className={styles.thirteen}></div>
+
+            <div className={styles.thirteen}>13</div>
+          </div>
         </div>
       </main>
     </>
