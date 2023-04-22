@@ -16,33 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        {/* <Header /> */}
-
-        <div>
-          <div className={styles.description}>
-            <div>© Pomodeep</div>
-            <p>
-              Get Start Your&nbsp;
-              <code className={styles.code}>Pomodeep Today</code>
-            </p>
-          </div>
-
-          <div className={styles.center}>
-            {/* <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          /> */}
-
-            <div className={styles.thirteen}>
-              <h1 className={styles.number}>13</h1>
-            </div>
-          </div>
-        </div>
+      <main>
+        <p>Pomodeep</p>
       </main>
     </>
   );
